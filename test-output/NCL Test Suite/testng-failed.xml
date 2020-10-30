@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NCL Test Suite]">
+  <listeners>
+    <listener class-name="com.ncl.qa.ExtentReport.Listener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="NCL Tests(failed)">
+    <classes>
+      <class name="com.ncl.qa.testcases.NclsearchResultsPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="comparePrices"/>
+        </methods>
+      </class> <!-- com.ncl.qa.testcases.NclsearchResultsPageTest -->
+    </classes>
+  </test> <!-- NCL Tests(failed) -->
+</suite> <!-- Failed suite [NCL Test Suite] -->
